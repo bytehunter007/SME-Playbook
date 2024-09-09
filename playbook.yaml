@@ -1,0 +1,36 @@
+# Small Business Playbook
+
+## Introduction
+This playbook is designed for a small business with minimal equipment. It covers basic procedures for handling common security incidents.
+
+# 1. Phishing Attack Response
+phishing_response:
+  - Recognize phishing emails by checking for:
+    - Suspicious sender addresses.
+    - Urgent or strange requests (e.g., "click here to update your account").
+    - Misspellings and grammatical errors.
+  - If a phishing email is suspected:
+    - Do not click any links or download attachments.
+    - Forward the email to IT or the designated security contact.
+    - Mark the email as spam/phishing.
+  - If a user clicks on a phishing link:
+    - Disconnect the machine from the internet.
+    - Reset passwords for any accounts potentially compromised.
+    - Notify IT immediately.
+
+# 2. Endpoint Security
+endpoint_security:
+  - Ensure all devices are:
+    - Running up-to-date antivirus software.
+    - Locked with strong passwords.
+    - Configured to auto-lock after 5 minutes of inactivity.
+  - Regularly scan devices for malware using built-in or third-party antivirus tools.
+  - Implement Multi-Factor Authentication (MFA) on all accounts where possible.
+
+# 3. Patch Management
+patch_management:
+  - Keep all software up-to-date by:
+    - Enabling automatic updates for operating systems and applications.
+    - Regularly checking for and applying manual updates for devices that don't update automatically.
+  - Create a schedule to review software updates every month.
+  
